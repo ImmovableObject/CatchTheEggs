@@ -3,13 +3,7 @@ using System.Collections;
 
 public class ScoreCounter : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+	//Store the value of CurrentScore
+	//Update the text component to display the current score
+	//If current score is equal to or greater then x score then load WinScene
 }

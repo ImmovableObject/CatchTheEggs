@@ -3,13 +3,6 @@ using System.Collections;
 
 public class DroppedObject : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+	//Store a Explode prefab
+	//If collison with basket or deathwall, instantiate Explode prefab then despawn
 }

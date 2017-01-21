@@ -3,13 +3,9 @@ using System.Collections;
 
 public class ObjectSpawner : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+	//Store two prefabs; One for an Egg and one for a Bomb
+	//Start moving the position of object left when the scene starts
+	//Every X seconds spawn either a Bomb or an Egg
+	//If collision with bumper wall and movement direction is left switch to moving right
+	//If collision with bumper wall and movement direction is right switch to moving left
 }
